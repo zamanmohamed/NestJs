@@ -1,0 +1,33 @@
+
+#for create a module
+-nest g module user --> import module for user
+-nest g service user --> import service for user
+-nest g controller user
+
+# in any class when we want to use dependency injection at that class we need to anotate with @Injectable()
+
+
+#for dto variable validator
+- npm i --save class-validator class-transformer
+
+
+#prisma
+ - npm install -D prisma
+ - npm install @prisma/client
+ - npx prisma init ==> creat a prisma folder
+ - npx prisma migrate dev ==> in prisma file created document import to dev
+ - npx prisma generate ==> via this code we can get prisma genarated table in to nest js
+
+ #Config
+ - npm i --save @nestjs/config
+
+
+#Jwt
+- npm install --save @nestjs/passport passport
+- npm install --save @nestjs/jwt passport-jwt
+
+
+
+
+
+npm i @nestjs/mongoose mongoose
